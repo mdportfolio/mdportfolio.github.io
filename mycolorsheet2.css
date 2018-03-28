@@ -1,0 +1,111 @@
+/*Project Page*/
+.projects {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  .projects {
+    padding-top: 56px;
+  }
+}
+
+.my-2{
+  text-align: center;
+  color: #dd4b39;
+}
+.nsbe, .walmart{
+  width: 100%;
+  height: auto;
+}
+.btn {
+  border-width: 2px;
+}
+
+.btn-primary {
+  background-color: #18BC9C;
+  border-color: #18BC9C;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #128f76;
+  border-color: #128f76;
+}
+
+
+/*Publication Page*/
+.imgcontainer {
+  background-color:  #003153;
+}
+
+.img-circle {
+	width: 400px;
+  height: 400px;
+	display: block;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*Posts*/
+.post-preview > a {
+  color: #212529;
+}
+
+.post-preview > a:focus, .post-preview > a:hover {
+  text-decoration: none;
+  color: #0085A1;
+}
+
+.post-preview > a > .post-title {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.post-preview > a > .post-subtitle {
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+
+.post-preview > .post-meta {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+  color: #868e96;
+}
+
+.post-preview > .post-meta > a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+  text-decoration: underline;
+  color: #0085A1;
+}
+
+@media only screen and (min-width: 768px) {
+  .post-preview > a > .post-title {
+    font-size: 36px;
+  }
+}
+
+/*Footer*/
+.fa {
+    padding: 10px;
+    font-size: 60px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+	}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-twitter {
+	background: #55ACEE;
+    color: white;
+}
